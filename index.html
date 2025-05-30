@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prajwal Padole</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <script src="script.js"></script>
 </head>
 <body>
+    <div id="loader"></div>
     <div class="container">
-            <video class="black-vid" autoplay loop muted plays-inline src="galaxy.mp4"></video>
+            <video class="black-vid" autoplay loop muted playsinline preload="auto">
+                <source src="galaxy.mp4" type="video/mp4">
+            </video>
             <div class="cover"></div>
 
             <header data-aos="fade-down" data-aos-duration="2000">
@@ -70,6 +73,104 @@
                 </div>
             </section>
     </div>
+
+    <section class="skills-section" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+                <i class='bx bxl-react'></i>
+                <h3>Frontend</h3>
+                <div class="skill-tags">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Tailwind</span>
+                </div>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+                <i class='bx bxl-nodejs'></i>
+                <h3>Backend</h3>
+                <div class="skill-tags">
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>MongoDB</span>
+                    <span>SQL</span>
+                    <span>APIs</span>
+                </div>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <i class='bx bxl-python'></i>
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>TypeScript</span>
+                    <span>Java</span>
+                    <span>C++</span>
+                </div>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="400">
+                <i class='bx bx-data'></i>
+                <h3>Tools</h3>
+                <div class="skill-tags">
+                    <span>Git</span>
+                    <span>Docker</span>
+                    <span>AWS</span>
+                    <span>Firebase</span>
+                    <span>VS Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Testimonial-section">
+            <section class="testimonials" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="section-title">What Clients Say</h2>
+                <div class="testimonial-container">
+                    <div class="testimonial-card" data-aos="fade-right" data-aos-delay="100">
+                        <div class="quote-icon">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial-text">"Prajwal delivered our project on time and exceeded our expectations. His technical skills and attention to detail are impressive."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>John Smith</h4>
+                                <p>Tech Lead, InnovateX</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="quote-icon">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial-text">"Working with Prajwal was a great experience. He brought creative solutions to our complex problems and was always responsive."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Project Manager, TechFlow</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-left" data-aos-delay="300">
+                        <div class="quote-icon">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial-text">"Prajwal's full-stack expertise helped us launch our platform faster than expected. His code quality and documentation are excellent."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>CTO, StartupVision</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+      
+  
 
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
