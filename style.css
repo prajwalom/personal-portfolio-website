@@ -643,4 +643,6 @@ header ul a:hover {
     text-shadow: 0 0 10px #72a1de;
 }
 
-
+canvas {
+    display: block;
+}
