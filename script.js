@@ -50,3 +50,7 @@ function createTrail() {
 }
 
 window.addEventListener('load', createTrail);
+
+
+
+

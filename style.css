@@ -545,52 +545,7 @@ header ul a:hover {
         padding: 4px 12px;
     }
 }
-.projects-section {
-    padding: 60px 20px;
-    background: linear-gradient(to bottom, #000000, #1a1a1a);
-}
 
-.projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.project-card {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 30px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 40px rgba(114, 161, 222, 0.3);
-    border-color: #72a1de50;
-}
-
-.project-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.project-card h3 {
-    font-size: 1.5rem;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.project-card p {
-    color: #ccc;
-    margin-bottom: 20px;    
-}
 .testimonials {
     padding: 80px 20px;
     background: rgba(0, 0, 0, 0.3);
@@ -679,3 +634,13 @@ header ul a:hover {
         font-size: 0.8rem;
     }
 }
+
+.project-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff;
+    text-shadow: 0 0 10px #72a1de;
+}
+
+
