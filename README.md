@@ -50,6 +50,6 @@ This project showcases a solid understanding of several key front-end developmen
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE). (Add a `LICENSE` file in your repository if you haven't already, or remove this line).
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
