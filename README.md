@@ -5,11 +5,11 @@ Welcome to my personal portfolio website repository! This project showcases my w
 ## ✨ Features
 
 * **Responsive Design:** Optimized for seamless viewing across various devices, from desktops to mobile phones.
-* **Interactive Effects:** Features engaging visual elements like a custom cursor trail effect and loading animations to enhance user experience. (Based on commit messages)
+* **Interactive Effects:** Features engaging visual elements like a custom cursor trail effect and loading animations to enhance user experience.
 * **Modern UI/UX:** Designed with contemporary aesthetics and user-friendly navigation.
-* **Project Showcase:** Dedicated sections to highlight my key projects and work. (Assumed feature for a portfolio)
-* **Skill Overview:** Displays my technical skills and competencies. (Assumed feature for a portfolio)
-* **Contact Section:** Easy ways for visitors to get in touch. (Assumed feature for a portfolio)
+* **Project Showcase:** Dedicated sections to highlight my key projects and work.
+* **Skill Overview:** Displays my technical skills and competencies.
+* **Contact Section:** Easy ways for visitors to get in touch.
 * **Dynamic Backgrounds/Visuals:** Incorporates engaging visual assets like video backgrounds (`blackhole.mp4`, `galaxy.mp4`) for a captivating presentation.
 
 ## 🚀 Technologies Used
